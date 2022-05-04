@@ -26,7 +26,7 @@ public class TC003_MS_MyPersonalInfoPageTest extends BaseClass {
 
 //Here updating password and clicking on save
 		perinfopage = new MypersonalInformationPage(driver);
-		perinfopage.validateChangePassword("test1266", "test1267", "test1267");
+		perinfopage.validateChangePassword("test1269", "test1270", "test1270");
 		test.log(LogStatus.INFO, "Changed the password with new Passwords in MyPersonalInfo Page");
 //Assertions
 		idpage = new IdentityPage(driver);
@@ -50,7 +50,7 @@ public class TC003_MS_MyPersonalInfoPageTest extends BaseClass {
 	{
 //Relogin again with changed Password and Assertion of page Title
 		logpage = new LoginPage(driver);
-		logpage.doLogin("reachautotest1266@gmail.com", "test1267");
+		logpage.doLogin("reachautotest1269@gmail.com", "test1270");
 		acctpage = new MyAccountPage(driver);
 		String act_title = acctpage.validatePageTitle();
 		String exp_title = "My account - My Store";
