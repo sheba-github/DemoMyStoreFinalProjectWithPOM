@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testcases.TC005_MS_ContactUsPageTest">
+        <methods>
+          <include name="ContactUsPageTest"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC005_MS_ContactUsPageTest -->
+      <class name="testcases.TC004_MS_OrderPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddProductsToCartTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC004_MS_OrderPageTest -->
+      <class name="testcases.TC006_MS_CreateAnAccountFailedTest">
+        <methods>
+          <include name="CreateAnAccountTest"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC006_MS_CreateAnAccountFailedTest -->
+      <class name="testcases.TC002_MS_RegistrationPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="RegisterTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC002_MS_RegistrationPageTest -->
+      <class name="testcases.TC003_MS_MyPersonalInfoPageTest">
+        <methods>
+          <include name="ChangePasswordTest"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC003_MS_MyPersonalInfoPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
