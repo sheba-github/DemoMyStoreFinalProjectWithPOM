@@ -41,7 +41,7 @@ public class CustomListeners extends BaseClass implements ITestListener,ISuiteLi
 		//Below is for extent report, it will attach screenshot in the extent report
 		test.log(LogStatus.FAIL, arg0.getName().toUpperCase()+" Failed with exception : "+arg0.getThrowable());
 		test.log(LogStatus.INFO, test.addScreenCapture(Utilities.screenshotName));
-		test.log(LogStatus.FAIL, arg0.getName().toUpperCase()+" FAIL");
+		//test.log(LogStatus.FAIL, arg0.getName().toUpperCase()+" FAIL");
 
 		
 		rep.endTest(test);

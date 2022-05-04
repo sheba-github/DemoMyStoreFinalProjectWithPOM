@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.572 s <<< FAILURE! - in TestSuite
+testcases.TC006_MS_CreateAnAccountFailedTest.CreateAnAccountTest  Time elapsed: 6.636 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [An account using this email address has already been registered. Please enter a valid password or request a new one] but found [An account using this email address has already been registered. Please enter a valid password or request a new one.]
+	at testcases.TC006_MS_CreateAnAccountFailedTest.CreateAnAccountTest(TC006_MS_CreateAnAccountFailedTest.java:38)
+

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7737" started-at="2022-05-04T04:50:12Z" finished-at="2022-05-04T04:50:20Z">
+  <suite name="Suite" duration-ms="8193" started-at="2022-05-04T15:47:16Z" finished-at="2022-05-04T15:47:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7737" started-at="2022-05-04T04:50:12Z" finished-at="2022-05-04T04:50:20Z">
+    <test name="Test" duration-ms="8193" started-at="2022-05-04T15:47:16Z" finished-at="2022-05-04T15:47:24Z">
       <class name="testcases.TC006_MS_CreateAnAccountFailedTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC006_MS_CreateAnAccountFailedTest@44a664f2]" name="init" is-config="true" duration-ms="10815" started-at="2022-05-04T04:50:01Z" finished-at="2022-05-04T04:50:12Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC006_MS_CreateAnAccountFailedTest@44a664f2]" name="init" is-config="true" duration-ms="10307" started-at="2022-05-04T15:47:05Z" finished-at="2022-05-04T15:47:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="CreateAnAccountTest()[pri:0, instance:testcases.TC006_MS_CreateAnAccountFailedTest@44a664f2]" name="CreateAnAccountTest" duration-ms="6095" started-at="2022-05-04T04:50:12Z" finished-at="2022-05-04T04:50:18Z">
+        <test-method status="FAIL" signature="CreateAnAccountTest()[pri:0, instance:testcases.TC006_MS_CreateAnAccountFailedTest@44a664f2]" name="CreateAnAccountTest" duration-ms="6789" started-at="2022-05-04T15:47:16Z" finished-at="2022-05-04T15:47:23Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -53,7 +53,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateAnAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC006_MS_CreateAnAccountFailedTest@44a664f2]" name="tearDown" is-config="true" duration-ms="2519" started-at="2022-05-04T04:50:20Z" finished-at="2022-05-04T04:50:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC006_MS_CreateAnAccountFailedTest@44a664f2]" name="tearDown" is-config="true" duration-ms="2033" started-at="2022-05-04T15:47:24Z" finished-at="2022-05-04T15:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
