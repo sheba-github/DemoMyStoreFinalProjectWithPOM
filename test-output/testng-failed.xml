@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.TC006_MS_CreateAnAccountFailedTest">
+      <class name="roughtestcases.TC006_MS_CreateAnAccountFailedTest">
         <methods>
-          <include name="CreateAnAccountTest"/>
           <include name="tearDown"/>
+          <include name="CreateAnAccountTest"/>
           <include name="init"/>
         </methods>
-      </class> <!-- testcases.TC006_MS_CreateAnAccountFailedTest -->
+      </class> <!-- roughtestcases.TC006_MS_CreateAnAccountFailedTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

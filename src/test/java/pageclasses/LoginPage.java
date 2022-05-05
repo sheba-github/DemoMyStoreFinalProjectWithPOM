@@ -73,5 +73,6 @@ public class LoginPage extends BasePage {
 		btn_CreateAnAcct.click();
 
 	}
+	
 
 }

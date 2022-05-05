@@ -10,7 +10,8 @@
           <class name="testcases.TC003_MS_MyPersonalInfoPageTest"/> 
           <class name="testcases.TC004_MS_OrderPageTest"/>
           <class name="testcases.TC005_MS_ContactUsPageTest"/>
-          <class name="testcases.TC001_MS_LandingPageTest"/>          
+          <class name="testcases.TC001_MS_LandingPageTest"/>
+                    
           
     </classes>
   </test> <!-- Test -->

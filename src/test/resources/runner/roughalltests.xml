@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name ="base.CustomListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="roughtestcases.TC002_MS_RegistrationPageTest"/>
+      <class name="roughtestcases.TC003_MS_MyPersonalInfoPageTest"/>
+      <class name="roughtestcases.TC004_MS_OrderPageTest"/>
+      <class name="roughtestcases.TC005_MS_ContactUsPageTest"/>
+      <class name="roughtestcases.TC006_MS_CreateAnAccountFailedTest"/>
+      <class name="roughtestcases.TC001_MS_LandingPageTest"/>         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
