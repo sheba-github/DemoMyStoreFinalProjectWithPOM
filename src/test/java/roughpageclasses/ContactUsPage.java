@@ -44,6 +44,10 @@ public class ContactUsPage extends BasePage {
 //Sign Out
 	@FindBy(xpath = "//a[@title='Log me out']")
 	public WebElement link_SignOut;
+	
+//Sign In
+	@FindBy(xpath="//a[@class='login']")
+	public WebElement link_SignIn;
 
 //Image
 	@FindBy(xpath = "//img[@class='logo img-responsive']")
@@ -67,6 +71,10 @@ public class ContactUsPage extends BasePage {
 	public void doClickSignOut() {
 
 		link_SignOut.click();
+	}
+	public void doClickSignIn() {
+		
+		link_SignIn.click();
 	}
 
 	public void doClickYourLogo() {

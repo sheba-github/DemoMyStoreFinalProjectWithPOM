@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="1" ignored="10" total="19" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="88881" started-at="2022-05-05T00:12:15Z" finished-at="2022-05-05T00:13:43Z">
+  <suite name="Suite" duration-ms="117868" started-at="2022-05-05T11:10:08Z" finished-at="2022-05-05T11:12:06Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="88881" started-at="2022-05-05T00:12:15Z" finished-at="2022-05-05T00:13:43Z">
+    <test name="Test" duration-ms="117868" started-at="2022-05-05T11:10:08Z" finished-at="2022-05-05T11:12:06Z">
       <class name="roughtestcases.TC002_MS_RegistrationPageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:roughtestcases.TC002_MS_RegistrationPageTest@8b96fde]" name="init" is-config="true" duration-ms="9820" started-at="2022-05-05T00:12:05Z" finished-at="2022-05-05T00:12:15Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:roughtestcases.TC002_MS_RegistrationPageTest@8b96fde]" name="init" is-config="true" duration-ms="11289" started-at="2022-05-05T11:09:57Z" finished-at="2022-05-05T11:10:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="RegisterTest()[pri:0, instance:roughtestcases.TC002_MS_RegistrationPageTest@8b96fde]" name="RegisterTest" duration-ms="16280" started-at="2022-05-05T00:12:15Z" finished-at="2022-05-05T00:12:31Z">
+        <test-method status="PASS" signature="RegisterTest()[pri:0, instance:roughtestcases.TC002_MS_RegistrationPageTest@8b96fde]" name="RegisterTest" duration-ms="19644" started-at="2022-05-05T11:10:08Z" finished-at="2022-05-05T11:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:roughtestcases.TC002_MS_RegistrationPageTest@8b96fde]" name="tearDown" is-config="true" duration-ms="3967" started-at="2022-05-05T00:13:44Z" finished-at="2022-05-05T00:13:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:roughtestcases.TC002_MS_RegistrationPageTest@8b96fde]" name="tearDown" is-config="true" duration-ms="2657" started-at="2022-05-05T11:12:06Z" finished-at="2022-05-05T11:12:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- roughtestcases.TC002_MS_RegistrationPageTest -->
       <class name="roughtestcases.TC003_MS_MyPersonalInfoPageTest">
-        <test-method status="PASS" signature="ChangePasswordTest()[pri:0, instance:roughtestcases.TC003_MS_MyPersonalInfoPageTest@2d2e5f00]" name="ChangePasswordTest" duration-ms="6697" started-at="2022-05-05T00:12:34Z" finished-at="2022-05-05T00:12:41Z">
+        <test-method status="PASS" signature="ChangePasswordTest()[pri:0, instance:roughtestcases.TC003_MS_MyPersonalInfoPageTest@2d2e5f00]" name="ChangePasswordTest" duration-ms="13266" started-at="2022-05-05T11:10:29Z" finished-at="2022-05-05T11:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChangePasswordTest -->
-        <test-method status="PASS" signature="ReLoginWithChangedPasswordTest()[pri:0, instance:roughtestcases.TC003_MS_MyPersonalInfoPageTest@2d2e5f00]" name="ReLoginWithChangedPasswordTest" duration-ms="3387" started-at="2022-05-05T00:12:41Z" depends-on-methods="roughtestcases.TC003_MS_MyPersonalInfoPageTest.ChangePasswordTest" finished-at="2022-05-05T00:12:44Z">
+        <test-method status="PASS" signature="ReLoginWithChangedPasswordTest()[pri:0, instance:roughtestcases.TC003_MS_MyPersonalInfoPageTest@2d2e5f00]" name="ReLoginWithChangedPasswordTest" duration-ms="5163" started-at="2022-05-05T11:10:42Z" depends-on-methods="roughtestcases.TC003_MS_MyPersonalInfoPageTest.ChangePasswordTest" finished-at="2022-05-05T11:10:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReLoginWithChangedPasswordTest -->
       </class> <!-- roughtestcases.TC003_MS_MyPersonalInfoPageTest -->
       <class name="roughtestcases.TC001_MS_LandingPageTest">
-        <test-method status="PASS" signature="LandingPageTitleTest()[pri:1, instance:roughtestcases.TC001_MS_LandingPageTest@1e67a849]" name="LandingPageTitleTest" duration-ms="2687" started-at="2022-05-05T00:13:13Z" finished-at="2022-05-05T00:13:16Z">
+        <test-method status="PASS" signature="LandingPageTitleTest()[pri:1, instance:roughtestcases.TC001_MS_LandingPageTest@1e67a849]" name="LandingPageTitleTest" duration-ms="2257" started-at="2022-05-05T11:11:40Z" finished-at="2022-05-05T11:11:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LandingPageTitleTest -->
-        <test-method status="PASS" signature="CartTextTest()[pri:2, instance:roughtestcases.TC001_MS_LandingPageTest@1e67a849]" name="CartTextTest" duration-ms="175" started-at="2022-05-05T00:13:16Z" finished-at="2022-05-05T00:13:16Z">
+        <test-method status="PASS" signature="CartTextTest()[pri:2, instance:roughtestcases.TC001_MS_LandingPageTest@1e67a849]" name="CartTextTest" duration-ms="191" started-at="2022-05-05T11:11:43Z" finished-at="2022-05-05T11:11:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartTextTest -->
-        <test-method status="PASS" signature="FollowUsLinksTest()[pri:3, instance:roughtestcases.TC001_MS_LandingPageTest@1e67a849]" name="FollowUsLinksTest" duration-ms="26958" started-at="2022-05-05T00:13:16Z" finished-at="2022-05-05T00:13:43Z">
+        <test-method status="PASS" signature="FollowUsLinksTest()[pri:3, instance:roughtestcases.TC001_MS_LandingPageTest@1e67a849]" name="FollowUsLinksTest" duration-ms="22762" started-at="2022-05-05T11:11:43Z" finished-at="2022-05-05T11:12:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FollowUsLinksTest -->
       </class> <!-- roughtestcases.TC001_MS_LandingPageTest -->
       <class name="roughtestcases.TC006_MS_CreateAnAccountFailedTest">
-        <test-method status="FAIL" signature="CreateAnAccountTest()[pri:0, instance:roughtestcases.TC006_MS_CreateAnAccountFailedTest@41ee392b]" name="CreateAnAccountTest" duration-ms="5242" started-at="2022-05-05T00:13:07Z" finished-at="2022-05-05T00:13:12Z">
+        <test-method status="FAIL" signature="CreateAnAccountTest()[pri:0, instance:roughtestcases.TC006_MS_CreateAnAccountFailedTest@41ee392b]" name="CreateAnAccountTest" duration-ms="6085" started-at="2022-05-05T11:11:33Z" finished-at="2022-05-05T11:11:39Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -55,7 +55,7 @@ expected [An account using this email address has already been registered. Pleas
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [An account using this email address has already been registered. Please enter a valid password or request a new one] but found [An account using this email address has already been registered. Please enter a valid password or request a new one.]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at roughtestcases.TC006_MS_CreateAnAccountFailedTest.CreateAnAccountTest(TC006_MS_CreateAnAccountFailedTest.java:38)
+at roughtestcases.TC006_MS_CreateAnAccountFailedTest.CreateAnAccountTest(TC006_MS_CreateAnAccountFailedTest.java:45)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,13 +89,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- CreateAnAccountTest -->
       </class> <!-- roughtestcases.TC006_MS_CreateAnAccountFailedTest -->
       <class name="roughtestcases.TC005_MS_ContactUsPageTest">
-        <test-method status="PASS" signature="ContactUsPageTest()[pri:0, instance:roughtestcases.TC005_MS_ContactUsPageTest@2ea6137]" name="ContactUsPageTest" duration-ms="6122" started-at="2022-05-05T00:13:01Z" finished-at="2022-05-05T00:13:07Z">
+        <test-method status="PASS" signature="ContactUsPageTest()[pri:0, instance:roughtestcases.TC005_MS_ContactUsPageTest@2ea6137]" name="ContactUsPageTest" duration-ms="7330" started-at="2022-05-05T11:11:26Z" finished-at="2022-05-05T11:11:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsPageTest -->
       </class> <!-- roughtestcases.TC005_MS_ContactUsPageTest -->
       <class name="roughtestcases.TC004_MS_OrderPageTest">
-        <test-method status="PASS" signature="AddProductsToCartTest()[pri:0, instance:roughtestcases.TC004_MS_OrderPageTest@4c40b76e]" name="AddProductsToCartTest" duration-ms="16616" started-at="2022-05-05T00:12:44Z" finished-at="2022-05-05T00:13:01Z">
+        <test-method status="PASS" signature="AddProductsToCartTest()[pri:0, instance:roughtestcases.TC004_MS_OrderPageTest@4c40b76e]" name="AddProductsToCartTest" duration-ms="38223" started-at="2022-05-05T11:10:47Z" finished-at="2022-05-05T11:11:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProductsToCartTest -->

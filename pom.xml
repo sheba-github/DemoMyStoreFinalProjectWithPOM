@@ -90,7 +90,8 @@
 		</plugins>
         </build>
 </profile>        
-</profiles>-->
+<profile>
+<id>sanityalltests</id>-->
 <build>
 		<plugins>
 			<plugin>
@@ -106,4 +107,6 @@
 			</plugin>
 		</plugins>
         </build>
+<!--  </profile>
+</profiles>-->
 </project>

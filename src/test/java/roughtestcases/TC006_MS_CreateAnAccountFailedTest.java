@@ -5,21 +5,28 @@ import org.testng.asserts.SoftAssert;
 
 import com.relevantcodes.extentreports.LogStatus;
 import base.BaseClass;
-import roughpageclasses.LandingPage;
+import roughpageclasses.ContactUsPage;
+//import roughpageclasses.LandingPage;
 import roughpageclasses.LoginPage;
 
 public class TC006_MS_CreateAnAccountFailedTest extends BaseClass {
-	LandingPage lanpage;
+	//LandingPage lanpage;
 	LoginPage logpage;
+	ContactUsPage contuspage;	
 	SoftAssert asrt;
 	
 	
 	@Test
 	public void CreateAnAccountTest() throws InterruptedException {
 		
-		lanpage= new LandingPage(driver);
-        lanpage.doClickSignIn();
-        test.log(LogStatus.INFO,"Clicked on Sign In link on Landing page");
+		  contuspage= new ContactUsPage(driver);
+		  contuspage.doClickSignIn();
+	      test.log(LogStatus.INFO,"Clicked on Sign In link on Contact Us page");
+
+		
+		//lanpage= new LandingPage(driver);
+        //lanpage.doClickSignIn();
+       // test.log(LogStatus.INFO,"Clicked on Sign In link on Landing page");
         
         logpage=new LoginPage(driver);
         logpage.setEmailAddr("reachautotest2022@gmail.com");
