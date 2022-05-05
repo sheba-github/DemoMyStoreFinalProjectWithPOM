@@ -29,12 +29,12 @@ public class TC002_MS_RegistrationPageTest extends BaseClass {
 
 //Clicking on Create an account will happen inside the method itself.
 		logpage = new LoginPage(driver);
-		logpage.setNewUserEmailAddress("reachautotest1501@gmail.com");
+		logpage.setNewUserEmailAddress("reachautotest1503@gmail.com");
 		test.log(LogStatus.INFO, "Clicked on Created a new account in Login Page");
 
 		regpage = new RegisterPage(driver);
-		regpage.validateRegister("Jack", "Henry", "test1501", "Jack", "Henry", "1501 HomeWood", "Moline", 
-				"13", "61276","21", "6475645022", "1501 SpringValley");
+		regpage.validateRegister("Jac", "Henry", "test1503", "Jac", "Henry", "1503 HomeWood", "Moline", 
+				"13", "61276","21", "6475645022", "1503 SpringValley");
 		Thread.sleep(1000);
 		test.log(LogStatus.INFO, "Registered a new customer in Registration Page");
 
@@ -46,7 +46,7 @@ public class TC002_MS_RegistrationPageTest extends BaseClass {
 		asrt.assertEquals(act_Title, exp_Title);
 		test.log(LogStatus.INFO, "Asserted page Title Successfully after Registration");
 		
-		String exp_name = "Jack Henry";
+		String exp_name = "Jac Henry";
 		String act_name = acctpage.validateRegisteredCustomerName();
 		System.out.println("Registered Customer name: " + act_name);
 		asrt.assertEquals(act_name, exp_name);
