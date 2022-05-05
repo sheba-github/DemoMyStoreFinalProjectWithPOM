@@ -53,7 +53,7 @@
 			<version>2.41.2</version>
 		</dependency>
 </dependencies>
-<profiles>
+<!--  <profiles>
 <profile>
 <id>regression</id>
 <build>
@@ -90,8 +90,8 @@
 		</plugins>
         </build>
 </profile>        
-<!--  <profile>
-<id>sanityalltests</id>
+<profile>
+<id>sanityalltests</id>-->
 <build>
 		<plugins>
 			<plugin>
@@ -107,6 +107,6 @@
 			</plugin>
 		</plugins>
         </build>
- </profile>-->
-</profiles>
+ <!--  </profile>
+</profiles>-->
 </project>
