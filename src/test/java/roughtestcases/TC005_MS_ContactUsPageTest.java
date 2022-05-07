@@ -46,12 +46,15 @@ public class TC005_MS_ContactUsPageTest extends BaseClass{
 		test.log(LogStatus.INFO, "Provided the details in the ContactUs Page");		
 		String act_text =contuspage.validateContactUsSentText();
 		String exp_text="Your message has been successfully sent to our team.";
+		System.out.println("Message displayed after ContactUs Flow: "+act_text);
 		asrt=new SoftAssert();
 		asrt.assertEquals(act_text, exp_text);
 		test.log(LogStatus.INFO, "Asserted the Contact Us sent text successsully");
 		asrt.assertAll();		
 		contuspage.doClickSignOut();
+		System.out.println("Logged Out Successfully");
 		test.log(LogStatus.INFO, "Logged Out successsully");
+		
 
 	}
 	

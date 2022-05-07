@@ -26,12 +26,13 @@ public class TC003_MS_MyPersonalInfoPageTest extends BaseClass {
 
 //Here updating password and clicking on save
 		perinfopage = new MypersonalInformationPage(driver);
-		perinfopage.validateChangePassword("test2000", "test2001", "test2001");
+		perinfopage.validateChangePassword("test4000", "test4001", "test4001");
 		test.log(LogStatus.INFO, "Changed the password with new Passwords in MyPersonalInfo Page");
 //Assertions
 		idpage = new IdentityPage(driver);
 		String exp_mesg = "Your personal information has been successfully updated.";
 		String act_mesg = idpage.validatePersonalUpdateMessage();
+		System.out.println("Message displayed after Password change: "+act_mesg);
 		asrt = new SoftAssert();
 		asrt.assertEquals(act_mesg, exp_mesg);
 		test.log(LogStatus.INFO, "Asserted update personal Info message in IdentityPage");
@@ -50,13 +51,15 @@ public class TC003_MS_MyPersonalInfoPageTest extends BaseClass {
 	{
 //Relogin again with changed Password and Assertion of page Title
 		logpage = new LoginPage(driver);
-		logpage.doLogin("reachautotest2000@gmail.com", "test2001");
+		logpage.doLogin("reachautotest4000@gmail.com", "test4001");
 		acctpage = new MyAccountPage(driver);
 		String act_title = acctpage.validatePageTitle();
 		String exp_title = "My account - My Store";
+		System.out.println("Page Title after ReLogin using Changed Password: "+act_title);
 		asrt = new SoftAssert();
 		asrt.assertEquals(act_title, exp_title);
 		test.log(LogStatus.INFO, "Logged in with changed password and personal Info got updated Succesfully");
+		System.out.println("Relogin Successful with changed Password");
 		asrt.assertAll();
 
 	}

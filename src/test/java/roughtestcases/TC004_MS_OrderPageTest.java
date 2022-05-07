@@ -45,11 +45,13 @@ public class TC004_MS_OrderPageTest extends BaseClass {
         asrt=new SoftAssert();
         String exp_title="Order confirmation - My Store";
         String act_title=odrpage.validateGetTitleOfOrderConfirm();
+        System.out.println("Page Title of Order Confirmation Page: "+ act_title);
         asrt.assertEquals(act_title, exp_title);   
         test.log(LogStatus.INFO, "Assertion on Order Confirmation title completed");
         String exp_mesg="Your order on My Store is complete.";
         String act_mesg=odrpage.validateOrderConfirmText();
-        asrt.assertEquals(act_mesg, exp_mesg);   
+        System.out.println("Order Confirmation Message: "+ act_mesg);
+        asrt.assertEquals(act_mesg, exp_mesg);      
         test.log(LogStatus.INFO, "Assertion on Order Confirmation message completed");
         asrt.assertAll();
         
