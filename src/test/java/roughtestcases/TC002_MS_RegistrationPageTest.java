@@ -29,12 +29,12 @@ public class TC002_MS_RegistrationPageTest extends BaseClass {
 
 //Clicking on Create an account will happen inside the method itself.
 		logpage = new LoginPage(driver);
-		logpage.setNewUserEmailAddress("reachautotest9000@gmail.com");
+		logpage.setNewUserEmailAddress("reachautotest8000@gmail.com");
 		test.log(LogStatus.INFO, "Clicked on Created a new account in Login Page");
 
 		regpage = new RegisterPage(driver);
-		regpage.validateRegister("Adam", "Marth", "test9000", "Adam", "Marth", "9000 HomeWood", "Moline", 
-				"13", "61276","21", "6475645022", "9000 SpringValley");
+		regpage.validateRegister("Adam", "Marth", "test8000", "Adam", "Marth", "8000 HomeWood", "Moline", 
+				"13", "61276","21", "6475645022", "8000 SpringValley");
 		Thread.sleep(1000);
 		test.log(LogStatus.INFO, "Registered a new customer in Registration Page");
 
