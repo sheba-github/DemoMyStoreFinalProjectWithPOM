@@ -7,4 +7,4 @@ This project demonstrates the Automation Testing of MyStore Web Aplication using
 5.Jenkins
 6.Github
 7.Extent Reports
-Testing inlcudes the end to end functionality of the application.
+Testing inlcudes the end to end functionality of the application in the Page Object Model along with Data driven testing framework.
